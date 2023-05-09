@@ -19,7 +19,7 @@
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
     "deploy": "npm run custom-domain && node scripts/pages.js inwooCS master",
-    "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
+    "custom-domain": "node scripts/cname.js inwoo.com www.inwoo.com",
     "lint": "next lint"
   },
   "dependencies": {
