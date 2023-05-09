@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "In Woo",
 	links: [
 		{
 			title: "About",
@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "In Woo Park",
+	description: "A Graduate Research Assistant at the Telecommunications and Social Informatics Program.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1SqIrT1bMrcBVhsZbhHFue8Z0XZNForOF/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,9 +45,9 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"Aloha, I graduated from the University of Hawaii at Manoa in 2023 with a Master's in Computer Science.",
+		"For my Master's Capstone Project, I created a comprehensive document detailing the configuration process for a hyper-converged infrastructure deployed on-premises at TASI. The goal was to establish a reliable and efficient software-as-a-service platform to support SAS technologies for various agencies operating in the Pacific islands.",
+		"I am eager to pursue a career in the cybersecurity and infrastructure fields of information technology within the Department of Defense located in Hawaii.",
 	],
 }
 
@@ -55,13 +55,18 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "Graduate Research Assistant",
+			description: "Documented the process of configuring SAS technologies on-prem at UHTASI. Wrote python/bash scripts to aggregate logs and report expiring licenses, consumables, and assets. Deployed a centralized management system for malware scans.",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "System Support Assistant I",
+			description: "Migrated legacy websites, automated software downloads with Chocolatey, tracked and remediated malware on workstations, reconfigured legacy servers, installed and tested network hardware, and reviewed security camera logs.",
+			icons: null,
+		},
+		{
+			title: "Help Desk",
+			description: "Troubleshooted issues with servers, applications (software & hardware) and other systems. Performed routine maintenance tasks, such as applying patches and updates.",
 			icons: null,
 		}
 	],
@@ -71,40 +76,36 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Massively Learning Activities",
+			description: "A comprehensive document detailing the configuration process for a hyper-converged infrastructure deployed on-premises at TASI.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/inwoocs/Massively-Learning-Activities",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "High Performance Computing",
+			description: "A coding assignment that teaches students how to parallelize in POSIX C using OpenMP and MPI using a simplified Brute Force Dictionary Attack.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/inwooCS/ICS632_High-Performance-Computing",
 				},
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "Machine Learning and AI",
+			description: "TrashGO: Garbage locator (concept) using transfer learning object detection YOLO, CNN, and re-purposed Amazon Scouts. Other ML projects such as Kaggle: Titanic Survival Probability.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/inwooCS/ICS635_Machine-Learning",
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/inwooCS/ICS691_Human-Centered-AI",
 				},
 			]
 		},
@@ -113,11 +114,11 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at inwoo at hawaii dot edu.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:inwoo@hawaii.edu",
 			isPrimary: true,
 		},
 		{
@@ -128,38 +129,30 @@ export const contact = {
 	]
 }
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	// 50 - 60 char
+	title: "In Woo Park | Graduate Research Assistant | System Operations | Help Desk",
+	description: "A Graduate Research Assistant at the Telecommunications and Social Informatics Program.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@inwoo",
+	description: "Graduate Research Assistant | System Operations | Help Desk",
 	cards: [
 		{
 			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			link: "https://inwoocs.github.io/",
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/inwoocs/",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/inwoopark/",
 		},
 	]
 }
