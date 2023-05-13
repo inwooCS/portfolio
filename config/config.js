@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faAws, faCompTia } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -26,8 +26,11 @@ export const navigation = {
 }
 export const intro = {
 	title: "In Woo Park",
-	description: "A Graduate Research Assistant at the Telecommunications and Social Informatics Program.",
+	description: "Aloha, I graduated from the University of Hawaii at Manoa in 2023, with a Master's in Computer Science. " +
+		"For my Master's Capstone Project, I created a comprehensive document detailing the configuration process for a hyper-converged infrastructure deployed on-premises at UHTASI, to support SAS technologies for various agencies operating in the Pacific islands.",
+	description2: "I am eager to pursue a career in cybersecurity or related fields of information technology in Hawaii. If you are hiring, check out my resume below! \u2193",
 	image: profile.src,
+	image2: profile.src,
 	buttons: [
 		{
 			title: "Contact Me",
@@ -55,20 +58,56 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Graduate Research Assistant",
-			description: "Documented the process of configuring SAS technologies on-prem at UHTASI. Wrote python/bash scripts to aggregate logs and report expiring licenses, consumables, and assets. Deployed a centralized management system for malware scans.",
+			title: "Grad. Research Assistant",
+			description: "Documented the process of configuring SAS technologies on-prem at UHTASI. Wrote python/bash scripts to aggregate logs and report expiring assets. Deployed a centralized management system for malware scans.",
 			icons: null,
 		},
 		{
 			title: "System Support Assistant I",
-			description: "Migrated legacy websites, automated software downloads with Chocolatey, tracked and remediated malware on workstations, reconfigured legacy servers, installed and tested network hardware, and reviewed security camera logs.",
+			description: "Migrated legacy websites, automated software downloads, tracked and remediated malware on workstations, reconfigured legacy servers, installed and tested network hardware, and reviewed security camera logs.",
 			icons: null,
 		},
 		{
-			title: "Help Desk",
+			title: "Help Desk I",
 			description: "Troubleshooted issues with servers, applications (software & hardware) and other systems. Performed routine maintenance tasks, such as applying patches and updates.",
 			icons: null,
 		}
+	],
+}
+
+export const certifications = {
+	title: "Certifications",
+	cards: [
+		{
+			title: "Linux+",
+			description: "Demonstrating a foundational understanding of Linux administration and operation, enabling effective management of diverse IT environments.",
+			icons: [
+				{
+					icon: faAws,
+					link: "https://github.com/inwoocs/Massively-Learning-Activities",
+				},
+			]
+		},
+		{
+			title: "Security+",
+			description: "Demonstrating an understanding of foundational cybersecurity principles and practices to safeguard digital assets and mitigate risks.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/inwooCS/ICS632_High-Performance-Computing",
+				},
+			]
+		},
+		{
+			title: "AWS Developer - Associate",
+			description: "Demonstrating a understanding of designing, developing, and deploying scalable applications on the Amazon Web Services (AWS) cloud platform.",
+			icons: [
+				{
+					icon: faAws,
+					link: "https://github.com/inwooCS/ICS635_Machine-Learning",
+				},
+			]
+		},
 	],
 }
 
@@ -77,7 +116,7 @@ export const projects = {
 	cards: [
 		{
 			title: "Massively Learning Activities",
-			description: "A comprehensive document detailing the configuration process for a hyper-converged infrastructure deployed on-premises at TASI.",
+			description: "A document detailing the configuration process of SAS technologies on-prem at UHTASI, to provide SaaS data analytics for agencies in the Pacific Islands.",
 			icons: [
 				{
 					icon: faGithub,
@@ -112,18 +151,20 @@ export const projects = {
 	],
 }
 
+
+
 export const contact = {
 	title: "Get in touch",
-	description: "Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at inwoo at hawaii dot edu.",
+	description: "Feel free to reach out directly by email at inwoo at hawaii dot edu and schedule a meeting with me about any opportunities.",
 	buttons: [
 		{
-			title: "Email Me",
+			title: "Send Email",
 			link: "mailto:inwoo@hawaii.edu",
 			isPrimary: true,
 		},
 		{
-			title: "Schedule Meeting",
-			link: "",
+			title: "Resume",
+			link: "https://drive.google.com/file/d/1SqIrT1bMrcBVhsZbhHFue8Z0XZNForOF/view?usp=sharing",
 			isPrimary: false,
 		},
 	]

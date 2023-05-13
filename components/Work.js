@@ -4,6 +4,25 @@ import Link from 'next/link'
 
 export const Skills = ({ title, cards }) => {
 	return (
+		<div id="skills" className="bg-white py-5 px-5">
+			<div className="container">
+				<h1 className="text-primary fw-bold">{title}</h1>
+				<div className="d-flex flex-row flex-wrap justify-content-center">
+					{cards.map((value, index) => (
+						<Card
+							key={index}
+							title={value.title}
+							description={value.description}
+							link={value.link} />
+					))}
+				</div>
+			</div>
+		</div>
+	);
+}
+
+export const Certifications = ({ title, cards }) => {
+	return (
 		<div id="skills" className="bg-secondary py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
