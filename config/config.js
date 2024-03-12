@@ -26,9 +26,8 @@ export const navigation = {
 }
 export const intro = {
 	title: "In Woo Park",
-	description: "Aloha, I graduated from the University of Hawaii at Manoa in 2023, with a Master's in Computer Science. " +
-		"For my Master's Capstone Project, I created a comprehensive document detailing the configuration process for a hyper-converged infrastructure deployed on-premises at UHTASI, to support SAS technologies for various agencies operating in the Pacific islands.",
-	description2: "I am eager to pursue a career in cybersecurity or related fields of information technology in Hawaii. If you are hiring, check out my resume below! \u2193",
+	description: "Greetings! Armed with a Master's and Bachelor's degree in Computer Science, I bring a wealth of knowledge and expertise to the realm of information technology and DevOps. My professional journey has been marked by a dedication to excellence and a commitment to staying abreast of the latest technological advancements. I specialize in leveraging my skills to drive innovation and efficiency in IT operations.",
+	description2: "I am fervently driven to chart a path in IT, DevOps, or cybersecurity, where my passion for technology and knack for problem-solving can flourish. Delve into my resume below or connect with me on LinkedIn to explore how we can collaborate for mutual success!",
 	image: profile.src,
 	image2: profile.src,
 	buttons: [
@@ -39,7 +38,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://drive.google.com/file/d/1SqIrT1bMrcBVhsZbhHFue8Z0XZNForOF/view?usp=sharing",
+			link: "https://drive.google.com/file/d/1ZhVfGvIJAl4fgeYftpUZkD0DeSm3zKnM/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -55,21 +54,21 @@ export const about = {
 }
 
 export const work = {
-	title: "What I do",
+	title: "What I do & have done",
 	cards: [
 		{
-			title: "Grad. Research Assistant",
-			description: "Documented the process of configuring SAS technologies on-prem at UHTASI. Wrote python/bash scripts to aggregate logs and report expiring assets. Deployed a centralized management system for malware scans.",
+			title: "Sr. IT Specialist - Telecom Administrator",
+			description: "Configured and managed government-funded equipment (GFE) devices, encompassing unclassified desk phones, SVoIPs, iPhones, and Android tablets. Installed, maintained, and troubleshooted ECVoIP phones across HQ-INDOPACOM.",
 			icons: null,
 		},
 		{
-			title: "System Support Assistant I",
-			description: "Migrated legacy websites, automated software downloads, tracked and remediated malware on workstations, reconfigured legacy servers, installed and tested network hardware, and reviewed security camera logs.",
+			title: "Communications Focal Point",
+			description: "Monitored and followed trends related to operational security, and collaborated with various departments for prompt resolution. Developed and managed a standard operating procedure (SOP) utilized for onboarding, training, and troubleshooting up to Tier 2 incidents.",
 			icons: null,
 		},
 		{
-			title: "Help Desk I",
-			description: "Troubleshooted issues with servers, applications (software & hardware) and other systems. Performed routine maintenance tasks, such as applying patches and updates.",
+			title: "IT Systems Support",
+			description: "Migrated websites, automated downloads, tracked malware, configured servers, installed hardware, and performed maintenance in IT Ops and DevOps. Additionally, troubleshooted server and application issues, and lead DevOps projects like ELK Stack deployment and Docker sandboxing.",
 			icons: null,
 		}
 	],
@@ -173,15 +172,15 @@ export const contact = {
 // SEARCH ENGINE
 export const SEO = {
 	// 50 - 60 char
-	title: "In Woo Park | Graduate Research Assistant | System Operations | Help Desk",
-	description: "A Graduate Research Assistant at the Telecommunications and Social Informatics Program.",
+	title: "In Woo Park | Sr. IT Specialist - Telecom Administrator",
+	description: "Sr. IT Specialist - Telecom Administrator.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
 	title: "@inwoo",
-	description: "Graduate Research Assistant | System Operations | Help Desk",
+	description: "Sr. IT Specialist - Telecom Administrator",
 	cards: [
 		{
 			title: "My website",
